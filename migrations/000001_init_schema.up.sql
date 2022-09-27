@@ -1,5 +1,3 @@
-CREATE SCHEMA `task_manager` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
 CREATE TABLE `task_manager`.`user` (
   `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `uid` VARCHAR(36) NOT NULL,
